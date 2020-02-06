@@ -1,0 +1,86 @@
+@keyframes LoaderElement-1 {
+  0% {
+    top: 5.7299999999999995px;
+    height: 179.54px;
+  }
+  50% {
+    top: 50.614999999999995px;
+    height: 89.77px;
+  }
+  100% {
+    top: 50.614999999999995px;
+    height: 89.77px;
+  }
+}
+@keyframes LoaderElement-2 {
+  0% {
+    top: 16.951249999999998px;
+    height: 157.0975px;
+  }
+  50% {
+    top: 50.614999999999995px;
+    height: 89.77px;
+  }
+  100% {
+    top: 50.614999999999995px;
+    height: 89.77px;
+  }
+}
+@keyframes LoaderElement-3 {
+  0% {
+    top: 28.1725px;
+    height: 134.655px;
+  }
+  50% {
+    top: 50.614999999999995px;
+    height: 89.77px;
+  }
+  100% {
+    top: 50.614999999999995px;
+    height: 89.77px;
+  }
+}
+.LoaderElement div {
+  position: absolute;
+  width: 17.189999999999998px;
+}
+.LoaderElement div:nth-child(1) {
+  left: 39.155px;
+  background: #0051a2;
+  animation: LoaderElement-1 0.9803921568627451s cubic-bezier(0, 0.5, 0.5, 1)
+    infinite;
+  animation-delay: -0.19607843137254902s;
+}
+.LoaderElement div:nth-child(2) {
+  left: 86.905px;
+  background: #1b75be;
+  animation: LoaderElement-2 0.9803921568627451s cubic-bezier(0, 0.5, 0.5, 1)
+    infinite;
+  animation-delay: -0.09803921568627451s;
+}
+.LoaderElement div:nth-child(3) {
+  left: 134.655px;
+  background: #408ee0;
+  animation: LoaderElement-3 0.9803921568627451s cubic-bezier(0, 0.5, 0.5, 1)
+    infinite;
+  animation-delay: undefineds;
+}
+
+.Loader {
+  width: 191px;
+  height: 191px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+.LoaderElement {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+.LoaderElement div {
+  box-sizing: content-box;
+}
