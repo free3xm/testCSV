@@ -6,7 +6,7 @@ const upload = require("express-fileupload");
 const path = require("path");
 
 const app = express();
-app.use(express.static(path.join(__dirname, "/build")));
+app.use("/", express.static(path.join(__dirname, "/build")));
 app.use(upload());
 // app.use(cors());
 app.use("/api", require("./router"));
