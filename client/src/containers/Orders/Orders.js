@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import cls from "./Orders.module.css";
 import { connect } from "react-redux";
 import Loader from "../../components/UI/Loader/Loader";
@@ -13,7 +13,7 @@ function Orders(props) {
   useEffect(() => {
     props.getOrders();
   }, []);
-  useEffect(() => {
+  useLayoutEffect(() => {
     setOrders(props.orders);
   }, [props.orders]);
 
@@ -83,7 +83,7 @@ function Orders(props) {
       )}
       <a
         className={cls.downloadLink}
-        href={`${process.env.REACT_APP_API_URL}/api/download`}
+        href={`${process.env.PUBLIC_URL}/api/download`}
       >
         Download
       </a>

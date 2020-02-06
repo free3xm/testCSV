@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "https://whispering-tor-85814.herokuapp.com/static/css/main.33324acf.chunk.css",
+    "main.js": "https://whispering-tor-85814.herokuapp.com/static/js/main.44da7661.chunk.js",
+    "main.js.map": "https://whispering-tor-85814.herokuapp.com/static/js/main.44da7661.chunk.js.map",
+    "runtime-main.js": "https://whispering-tor-85814.herokuapp.com/static/js/runtime-main.996f5f6f.js",
+    "runtime-main.js.map": "https://whispering-tor-85814.herokuapp.com/static/js/runtime-main.996f5f6f.js.map",
+    "static/js/2.ebafb99b.chunk.js": "https://whispering-tor-85814.herokuapp.com/static/js/2.ebafb99b.chunk.js",
+    "static/js/2.ebafb99b.chunk.js.map": "https://whispering-tor-85814.herokuapp.com/static/js/2.ebafb99b.chunk.js.map",
+    "index.html": "https://whispering-tor-85814.herokuapp.com/index.html",
+    "precache-manifest.bfdf7d4d02b3ed82cad42d430eebff82.js": "https://whispering-tor-85814.herokuapp.com/precache-manifest.bfdf7d4d02b3ed82cad42d430eebff82.js",
+    "service-worker.js": "https://whispering-tor-85814.herokuapp.com/service-worker.js",
+    "static/css/main.33324acf.chunk.css.map": "https://whispering-tor-85814.herokuapp.com/static/css/main.33324acf.chunk.css.map",
+    "static/js/2.ebafb99b.chunk.js.LICENSE.txt": "https://whispering-tor-85814.herokuapp.com/static/js/2.ebafb99b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.996f5f6f.js",
+    "static/js/2.ebafb99b.chunk.js",
+    "static/css/main.33324acf.chunk.css",
+    "static/js/main.44da7661.chunk.js"
+  ]
+}
