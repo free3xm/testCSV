@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const cors = require("cors");
+// const cors = require("cors");
 const config = require("config");
 const upload = require("express-fileupload");
 const path = require("path");
