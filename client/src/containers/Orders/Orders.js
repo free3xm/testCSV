@@ -83,7 +83,7 @@ function Orders(props) {
       )}
       <a
         className={cls.downloadLink}
-        href={`${process.env.PUBLIC_URL}/api/download`}
+        href={`${process.env.REACT_APP_API_URL}/api/download`}
       >
         Download
       </a>

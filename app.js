@@ -1,16 +1,15 @@
 const express = require("express");
 const mongoose = require("mongoose");
-// const cors = require("cors");
+const cors = require("cors");
 const config = require("config");
 const upload = require("express-fileupload");
 const path = require("path");
 
 const app = express();
-app.use("/", express.static(path.join(__dirname, "/build")));
 app.use(upload());
-// app.use(cors());
+app.use(cors());
 app.use("/api", require("./router"));
-const port = process.env.PORT || config.get("port");
+const port = config.get("port");
 const mongoUri = config.get("mongoUri");
 
 async function start() {

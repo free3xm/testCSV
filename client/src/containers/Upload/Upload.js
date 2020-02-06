@@ -23,7 +23,7 @@ function Upload(props) {
 }
 function mapDispatchToProps(dispatch) {
   return {
-    uploadCSV: data => dispatch(uploadCSV(data))
+    uploadCSV: file => dispatch(uploadCSV(file))
   };
 }
 export default connect(null, mapDispatchToProps)(Upload);

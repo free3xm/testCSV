@@ -13,18 +13,18 @@ export default function getOrders() {
     }
   };
 }
-function fetchStart() {
+export function fetchStart() {
   return {
     type: FETCH_START
   };
 }
-function fetchSuccess(data) {
+export function fetchSuccess(data) {
   return {
     type: FETCH_SUCCESS,
     data
   };
 }
-function fetchError(err) {
+export function fetchError(err) {
   return {
     type: FETCH_ERROR,
     err
