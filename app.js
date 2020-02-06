@@ -10,7 +10,7 @@ app.use("/", express.static(path.join(__dirname, "/build")));
 app.use(upload());
 // app.use(cors());
 app.use("/api", require("./router"));
-const port = config.get("port");
+const port = process.env.PORT || config.get("port");
 const mongoUri = config.get("mongoUri");
 
 async function start() {
